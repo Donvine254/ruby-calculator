@@ -51,7 +51,7 @@ def calculator_app
 
   result = calculate(num1, num2, operator)
    puts "+-----------------------------+"
-  display_result(result) unless result.nil?
+  display_result(result.round(2)) unless result.nil?
   puts "+-----------------------------+"
 end
 
